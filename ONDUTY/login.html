@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            height: 100vh;
+        }
+        header {
+    background-color: rgb(255, 251, 251);
+    margin: 10px;
+    border-color: black;
+    
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    
+    font-family: 'Lalezar', cursive;
+    font-size: 1;
+    color: #f2f21b;
+    background-color: #0a0a0a;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    letter-spacing: 5px;
+position: relative;
+
+  }
+  header h3 {
+    margin: 0;
+    border: solid;
+    background-color:#f2f21b;
+    color: black;
+    font-size: small;
+    font-weight:900;
+    letter-spacing: 13px;
+    padding-left: 1%;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    position: relative;
+  }
+  .line{
+    border-top: 1px solid gray;
+    width: 100%;
+  }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+        }
+
+        .login-container h1 {
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size:34px;
+        }
+
+        .login-form {
+            margin-top: 20px;
+        }
+
+        .login-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 0px;
+        }
+        .login-form .mail label{
+            position: relative;
+            left: -127px;
+        }
+        .login-form .pass label {
+            position: relative;
+            left: -104px;
+        }
+        .login-form .fp p{
+            position: relative;
+            top: -87px;
+            left: 139px;
+        }
+
+        .login-form button {
+            width: 322px;
+            padding: 10px;
+            background-color: #000000;
+            color: #DED72E;
+            font-size: medium;
+            font-weight: 300;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+            position: relative;
+            top: -40px;
+            
+        }
+
+        .login-form button:hover {
+            background-color: #555757;
+        }
+        .login-form .create p{
+            position: relative;
+            top: -30px;
+            left: -95px;
+            color: #5d6161;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <a href="cia1.html"><header>
+        <h1>O N   D U T Y</h1>
+        <h3>I N D I A</h3>
+    </header></a>
+    <div class="line"></div>
+    <center><div class="login-container">
+        <h1>Login</h1>
+        <form  class="login-form" action="login.php" method="post">
+            <div class="mail">
+            <label for="email">EMAIL</label>
+            <input type="text" id="email" name="email" ></div>
+            <div class="pass">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" ></div>
+            <div class="fp">
+                <p>Forgot?</p>
+            </div>
+            <a href="trial.html"><button type="submit">Sign In</button></a>
+           <div class="create"><a href="register.html"> <p>Create account</p></a></div>
+        </form>
+    </div></center>
+</body>
+</html>
